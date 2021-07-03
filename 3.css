@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.sec1{ 
+    width: 100%;
+    background-color:grey;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom:50px;
+
+
+}
+.ele1{
+    width: 15%;
+    height: 200px;
+    background-color: red;
+
+}
+.sec2{
+
+    width:100%;
+    background-color:black;
+    padding-top: 50px;
+    padding-bottom:50px;
+    align-items:center;
+    
+}
+
+.ele2{
+    width:20%;
+    height:200px;
+    background-color: grey;
+    display:inline-block;
+    margin-left:50px;
+    
+
+}
