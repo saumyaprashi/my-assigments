@@ -1,0 +1,386 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+/* css for header */
+.header{
+    width: 100%;
+    height:90px;
+    /* background-color:rgba(0,95,255,0.7);  */
+    display:flex;
+    justify-content:center;
+    position: fixed;
+}
+.container{
+    width: 90%;
+    display:flex;
+    /* background-color:orangered;  */
+    
+}
+.header_container{
+    justify-content: space-between;
+    display: flex;
+}
+.logo{
+    width:15%;
+    height:90px;
+    /* background-color:yellow;  */
+    font-size: 50px;
+    font-family:'Segoe UI';
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 90px;
+    
+} 
+.nav{
+    width:30%;
+    height:90px;
+     /* background-color:greenyellow;  */
+    display:flex;
+}
+.nav-item{
+    width: 20%;
+    height:90px;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    text-align: center;
+    line-height: 90px;
+    color: white; 
+    cursor: pointer;
+    transition: .4s;
+}
+ .nav-item:hover{
+    background-color:white ;
+    color:rgba(0,95,255,0.7);
+}
+.banner{
+    height:95vh;
+    width:100%;
+    background-color: grey;
+    background-size: cover;
+    background-image: url("./images1/pexels-tranmautritam-251225.jpg");
+}
+.overlay{
+    height:95vh;
+    width:100%;
+    background-color:rgba(1,1,1,0.5);
+    display:flex;    
+    align-items: center;
+}
+.banner_text{
+    height:350px;
+    width: 50%;
+    background-color:rgba(0,95,255,0.7);
+    font-family: 'Segoe UI';
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.banner_title{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.banner_desc{
+    margin-bottom: 30px;
+}
+.pad{
+    padding: 20px;
+    /* background-color: red; */
+}
+.banner_bttn{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+}
+.banner_bttn:hover{
+    background-color: white;
+    color:rgba(0,95,255,0.7);
+}
+/*  css for services */
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#808080a8;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI';
+}
+.services_container{
+    margin-top:50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service{
+    width:48%;
+    height:400px;
+    background-color: white;
+    display:flex;
+    margin-top: 20px;
+
+}
+.service_img{
+    height:400px;
+    width:40%;
+    /* background-color: red; */
+    display: flex;
+    overflow:hidden;
+}
+.service_details{
+    width:60%;
+    height:400px;
+    /* background-color: green; */
+    display:flex;
+    align-items: center;
+}
+
+.services_padd{
+    padding:20px;
+}
+.service_btn{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(0,95,255,0.7);
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.service_title{
+    margin-bottom: 15px;
+}
+.service_desc{
+    margin-bottom: 30px;
+}
+/*  css for about */
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI';
+    align-items: center;
+    width: 100%;
+}
+.about_container{
+    margin-top: 30px;
+    line-height: 30px;
+    display: inline;
+    
+}
+.start_text{
+    font-size: 40px;
+    font-weight: bold;
+    color: grey;
+}
+/* css for highlight */
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color:rgba(0,95,255,0.7);
+    display: flex;
+    justify-content: center;
+}
+.highlight_container{
+    justify-content: space-between;
+
+}
+.high_ele{
+    width: 22%;
+    height:230px;
+    background-color:rgba(1,1,1,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Segoe UI;
+    text-align: center;
+    color:white;
+}
+.high_title{
+    font-size: 60px;
+}
+.high_desc{
+    font-size: 25px;
+}
+.quote{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    font-family: Segoe UI;
+}
+.quote_container{
+    flex-direction: column;
+    align-items: center;
+}
+.quote_title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.quote_btn{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(0,95,255,0.7);
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+.portfolio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: grey; */
+    font-family: 'Segoe UI';
+}
+.portfolio_container{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.projects{
+    width: 25%;
+    height: 400px;
+    background-color: red;
+    display: flex;
+    overflow: hidden;
+}
+.project1{
+    background-image: url(https://images.pexels.com/photos/298864/pexels-photo-298864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+}
+.project2{
+    background-image: url(https://images.pexels.com/photos/315788/pexels-photo-315788.jpeg?cs=srgb&dl=pexels-pixabay-315788.jpg&fm=jpg);
+    background-size: cover;
+    align-items: flex-end;
+}
+.project3{
+    background-image: url(https://www.whereabouts.in/wp-content/uploads/2019/06/Vande-Bharat.jpg);
+    background-size: cover;
+}
+.project4{
+    background-image: url(https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=pexels-victor-freitas-841130.jpg&fm=jpg);
+    background-size: cover;
+    align-items: flex-end;
+}
+.project5{
+    background-image: url(https://th.bing.com/th/id/OIP.O3jh_pJNXCpNomr6uwWIEAHaFj?pid=ImgDet&rs=1);
+    background-size: cover;
+}
+.project6{
+    background-image: url(https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg?cs=srgb&dl=pexels-pixabay-461428.jpg&fm=jpg);
+    background-size: cover;
+    align-items: flex-end;
+}
+.project7{
+    background-image: url(https://images.pexels.com/photos/3769138/pexels-photo-3769138.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3769138.jpg&fm=jpg);
+    background-size: cover;
+}
+.project8{
+    background-image: url(https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-761963.jpg&fm=jpg);
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_title{
+    color: white;
+    width: 100%;
+    height:150px;
+    text-indent: 30px;
+    line-height: 200px;
+    background-color: rgba(51, 73, 110, 0.7);
+    cursor:pointer;
+    transition: .5s;
+}
+.project_title:hover{
+    height: 400px;
+}
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#353535;
+    display: flex;
+    justify-content: center;
+}
+.footer_child{
+    height:300px;
+    width: 25%;
+    /* background-color: grey; */
+    font-family: Segoe UI;
+    display:flex;
+    justify-content: center;
+}
+.footer_child_1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 50px;
+}
+ul{
+    margin-top:40px;
+}
+li{
+    list-style-type:none;
+    margin-bottom: 10px;
+    color: white;
+}
+.first{
+    font-size: 22px;
+
+}
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_container{
+    justify-content: space-between;
+    width:60%;
+}
+.social_icons{
+    height: 50px;
+    width: 50px;
+    /* background-color: white; */
+    background-size: cover;
+}
+.si1{
+    background-image: url("./images1/iconfinder_386622_facebook_icon_512px.png");
+}
+.si2{
+    background-image: url("./images1/iconfinder_571112_google_google\ plus_logo_plus_social_icon_512px.png");
+}
+
+.si3{
+    background-image: url("./images1/iconfinder_2993766_instagram_social\ media_icon_512px.png");
+}
+
+.si4{
+    background-image: url("./images1/iconfinder_317725_linkedin_social_icon_512px.png");
+}
+
